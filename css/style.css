@@ -22,7 +22,7 @@ a{
 }
 
 .main-page-wrapper{
-    background: url(/video-production/img/hero.png) center top no-repeat, url(/video-production/img/bottom-pic.png) right bottom 306px no-repeat;
+    background: url(/img/hero.png) center top no-repeat, url(/img/bottom-pic.png) right bottom 306px no-repeat;
 }
 
 
@@ -95,6 +95,7 @@ a{
     font-size: 18px;
 }
 
+
 .button{
     padding: 18px 53px;
     border-radius: 35px;
@@ -107,7 +108,6 @@ a{
     background-color: #FF3D00;
 }
 
-
 .offers{
     margin-bottom: 180px;
 }
@@ -118,7 +118,7 @@ a{
     border-radius: 5px;
     background-color: white;
     width: 362px;
-    margin-right: 20px;
+    margin-right: 23px;
 }
 
 .offers__item:last-child{
@@ -297,11 +297,11 @@ a{
     opacity: 0.1;
 }
 
-.socials__list{
+.socials{
     margin-left: 110px;
 }
 
-.socials__list, .socials__item{
+.socials, .socials__item{
     display: inline-block;
 }
 
@@ -316,7 +316,7 @@ a{
     margin-right: 0px;
 }
 
-.socials__list, .menu__list{
+.socials, .menu__list{
     vertical-align: middle;
 }
 
@@ -328,35 +328,35 @@ a{
 }
 
 .socials__item--icon--tg .socials__link{
-    background-image: url(/video-production/img/soc-telegram.png);
+    background-image: url(/img/soc-telegram.png);
 }
 
 .socials__item--icon--tg .socials__link:hover{
-    background-image: url(/video-production/img/soc-telegram-hover.png);
+    background-image: url(/img/soc-telegram-hover.png);
 }
 
 .socials__item--icon--vk .socials__link{
-    background-image: url(/video-production/img/soc-vk.png);
+    background-image: url(/img/soc-vk.png);
 }
 
 .socials__item--icon--vk .socials__link:hover{
-    background-image: url(/video-production/img/soc-vk-hover.png);
+    background-image: url(/img/soc-vk-hover.png);
 }
 
 .socials__item--icon--fb .socials__link{
-    background-image: url(/video-production/img/soc-fb.png);
+    background-image: url(/img/soc-fb.png);
 }
 
 .socials__item--icon--fb .socials__link:hover{
-    background-image: url(/video-production/img/soc-fb-hover.png);
+    background-image: url(/img/soc-fb-hover.png);
 }
 
 .socials__item--icon--inst .socials__link{
-    background-image: url(/video-production/img/soc-inst.png);
+    background-image: url(/img/soc-inst.png);
 }
 
 .socials__item--icon--inst .socials__link:hover{
-    background-image: url(/video-production/img/soc-inst-hover.png);
+    background-image: url(/img/soc-inst-hover.png);
 }
 
 
@@ -370,3 +370,4 @@ a{
     font-size: 11px;
     margin-bottom: 6px;
 }
+
