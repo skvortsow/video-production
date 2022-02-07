@@ -228,12 +228,9 @@ ul{
 }
 
 .pager{
-    text-align: center;
-}
-
-.pager__display, .pager__list{
-    display: inline-block;
-    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pager__display{
@@ -241,9 +238,12 @@ ul{
     margin-right: 25px;
 }
 
+.pager__list{
+    display: flex;
+}
+
 .pager__item{
-    display: inline-block;
-    vertical-align: middle;
+    text-align: center;
 }
 
 .pager__link{
