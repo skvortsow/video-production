@@ -31,6 +31,12 @@ ul{
     margin: 0 auto;
 }
 
+.container__hello{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .main-page-wrapper{
     background: url(/video-production/img/hero.png) center top no-repeat, url(/video-production/img/bottom-pic.png) right bottom 306px no-repeat;
 }
