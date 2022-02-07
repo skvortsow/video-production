@@ -8,32 +8,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet" rel="stylesheet">
-    <link rel="stylesheet" href="/video-production/css/reset.css">
+    <link rel="stylesheet" href="/video-production/css/normalize.css">
     <link rel="stylesheet" href="/video-production/css/style.css">
 </head>
 <body>
     <div class="wrapper main-page-wrapper">
-        <header class="header">
-            <div class="container">
-                <a href="#" class="logo">
-                    <img class="logo__img" src="/video-production/img/logo.png" alt="logo company"> 
-                </a>
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__item"><a href="" class="menu__link">Главная</a></li>
-                        <li class="menu__item"><a href="" class="menu__link">Услуги</a></li>
-                        <li class="menu__item"><a href="" class="menu__link">Отзывы</a></li>
-                    </ul>
-                </nav>
-                <address class="contacts">
-                    <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                </address>
-            </div>
-        </header>
         <main class="maincontent">
             <section class="hello">
                 <div class="container">
-                    <h1 class="main__title">СНИМЕМ ДЛЯ ВАС<br>КРЕАТИВНОЕ ВИДЕО</h1>
+                    <header class="header">
+                        <a href="#" class="logo">
+                            <img class="logo__img" src="/video-production/img/logo.png" alt="logo company"> 
+                        </a>
+                        <nav class="menu">
+                            <ul class="menu__list">
+                                <li class="menu__item"><a href="" class="menu__link">Главная</a></li>
+                                <li class="menu__item"><a href="" class="menu__link">Услуги</a></li>
+                                <li class="menu__item"><a href="" class="menu__link">Отзывы</a></li>
+                            </ul>
+                        </nav>
+                        <address class="contacts">
+                            <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+                            <div class="schedule">График работы</div>
+                        </address>
+                    </header>
+                    <div class="main-page__title">
+                    <h1 class="title">СНИМЕМ ДЛЯ ВАС<br>КРЕАТИВНОЕ ВИДЕО</h1>
+                    </div>
                     <div class="hello__text">Креативный видеопродакшен полного цикла</div>
                     <a href="#" class="button">ПОДРОБНЕЕ</a>
                 </div>
@@ -127,20 +128,24 @@
                     </div>
                 </div>
             </section>
-            <section class="about">
+            <section class="section">
                 <div class="container">
-                    <img src="/video-production/img/about-img.png" alt="about img" class="about__img">
+                    <div class="about">
                     <div class="about__content">
                         <h2 class="title">О НАС</h2>
-                        <p class="about__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях.
+                        <div class="about__text">
+                        <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях.
                         </p>
+                        </div>
                         <a href="#" class="button">ПОДРОБНЕЕ</a>
+                    </div>
                     </div>
                 </div>
             </section>
         </main>
-        <footer class="footer">
+        <footer class="footer-container">
             <div class="container">
+                <div class="footer">
                 <a href="#" class="logo">
                     <img class="logo__img" src="/video-production/img/logo.png" alt="logo company"> 
                 </a>
@@ -169,6 +174,7 @@
                     <div class="contacts__text">Бесплатный звонок по России</div>
                     <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
                 </address>
+                </div>
             </div>
         </footer>
     </div>
