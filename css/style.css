@@ -550,6 +550,11 @@ ul{
     margin-bottom: 27px;
 }
 
+.review__date{
+    font-weight: 600;
+    font-size: 14px;
+}
+
 .author__text{
     margin-left: 22px;
 }
