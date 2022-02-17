@@ -116,6 +116,8 @@ ul{
     display: block;
     max-width: 195px;
     transition: .5s;
+    color: white;
+    border: none;
 }
 
 .button:hover{
