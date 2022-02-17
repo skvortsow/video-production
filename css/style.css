@@ -398,8 +398,8 @@ ul{
 
 /*стили для страницы услуг*/
 
-.services-wrapper{
-    background: url(/video-production/img/services__top-bg.png) center top no-repeat;
+.subpage-wrapper{
+    background: url(../img/services__top-bg.png) center top no-repeat;
 }
 
 .page-title h1{
