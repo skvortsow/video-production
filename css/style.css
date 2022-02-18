@@ -75,6 +75,14 @@ ul{
 }
 
 .schedule{
+    position: relative;
+}
+
+.schedule:hover .schedule__list{
+    opacity: 1;
+}
+
+.schedule__link{
     font-family: 'Open Sans';
     font-weight: 400;
     text-decoration: underline;
@@ -82,6 +90,43 @@ ul{
     font-style: normal;
     font-size: 13px;
     line-height: 1.5;
+    padding-bottom: 10px;
+}
+
+.schedule__list{
+    padding: 15px 19px;
+    border-radius: 3px;
+    background: rgba(255,255,255,.8);
+    text-align: left;
+    position: absolute;
+    right: 0;
+    top: 27px;
+    transition: .2s;
+    opacity: 0;
+}
+
+.schedule__list:after{
+    content:"";
+    border: 10px solid transparent;
+    border-bottom: 10px solid rgba(255,255,255,.8);
+    top: -20px;
+    right: 45px;
+    position: absolute;
+}
+
+.schedule__item{
+    font-size: 13px;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 4px;
+}
+
+.schedule__item:last-child{
+    margin-bottom: 0px;
+}
+
+.schedule__item--bold{
+    font-weight: 700;
 }
 
 .hello{
